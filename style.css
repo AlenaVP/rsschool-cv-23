@@ -1,0 +1,87 @@
+/* general */
+html {
+  font-family: "Segoe UI", Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+/* wrapper */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* header */
+.header-wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* nav */
+.nav-list {
+  display: flex;
+}
+
+.list-link {
+  display: block;
+  margin: 5px;
+  padding: 15px 5px;
+}
+
+/* main */
+.main-wrapper {
+  display: flex;
+  padding: 10px;
+}
+
+/* sidebar */
+.sidebar {
+  padding: 0px 10px;
+  width: 35%;
+  min-width: 260px;
+}
+
+/* main-content */
+.main-content {
+  padding: 0px 10px;
+}
+
+/* footer */
+.footer-wrapper {
+  display: flex;
+  padding: 10px;
+}
