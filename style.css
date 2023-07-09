@@ -189,7 +189,37 @@ pre {
 }
 
 /* footer */
+footer {
+  box-shadow: 0 0 10px #8e5c4a;
+  clip-path: inset(-10px 0 0 0);
+}
+
 .footer-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
+  font-weight: 600;
+  color: #8e5c4a;
+}
+
+.footer-link {
+  display: inline-block;
+  transition: all 0.35s;
+}
+
+.footer-link:hover {
+  transform: scale(1.1);
+}
+
+.rsschool-logo {
+  width: 100px;
+  height: 37px;
+  background: url("./assets/img/rs_school_js.svg") center no-repeat;
+}
+
+.github-logo {
+  width: 40px;
+  height: 40px;
+  background: url("./assets/img/github.svg") center / contain;
 }
