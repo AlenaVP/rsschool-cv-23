@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./assets/img/pink-pearl.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -31,7 +32,9 @@
   <main>
     <div class="wrapper main-wrapper">
       <div class="sidebar">
-        <figure class="ava"></figure>
+        <figure class="ava">
+          <img src="./assets/img/ava_0827_small.jpg" alt="avatar" class="bordered">
+        </figure>
         <section id="contacts">
           <h2 class="hidden">contacts</h2>
           <ul class="contact-list">
@@ -49,11 +52,19 @@
             </li>
             <li class="list-item">
               CSS3<br>
-              <meter value="62" max="100" low="50"></meter>
+              <meter value="71" max="100" low="50"></meter>
             </li>
             <li class="list-item">
               JavaScript<br>
-              <meter value="53" max="100" low="50"></meter>
+              <meter value="62" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              TypeScript<br>
+              <meter value="17" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Webpack<br>
+              <meter value="17" max="100" low="50"></meter>
             </li>
             <li class="list-item">
               Figma<br>
@@ -61,11 +72,11 @@
             </li>
             <li class="list-item">
               Sass<br>
-              <meter value="17" max="100" low="50"></meter>
+              <meter value="26" max="100" low="50"></meter>
             </li>
             <li class="list-item">
               Visual Studio Code<br>
-              <meter value="35" max="100" low="50"></meter>
+              <meter value="44" max="100" low="50"></meter>
             </li>
             <li class="list-item">
               Java<br>
@@ -113,15 +124,46 @@
     }
           </code></pre>
         </section>
-        <section id="portfolio" class="hidden">
+        <section id="portfolio">
           <h2>projects</h2>
+          <figure class="portfolio_item">
+            <a href="http://rolling-scopes-school.github.io/alenavp-JSFE2021Q1/online-zoo/" target="_blank"
+              title="the third project">
+              <img src="./assets/img/online-zoo.png" alt="online-zoo" class="portfolio_img"></a>
+            <figcaption>
+              <h3>Online-zoo</h3>
+              <p>Virtual visit to zoo. Task for RSS2021Q1</p>
+              <p>HTML, CSS, Javascript</p>
+            </figcaption>
+          </figure>
+          <figure class="portfolio_item">
+            <a href="http://rolling-scopes-school.github.io/alenavp-JSFE2021Q1/virtual-piano/" target="_blank"
+              title="the second project">
+              <img src="./assets/img/virtual-piano.png" alt="virtual-piano" class="portfolio_img"></a>
+            <figcaption>
+              <h3>Virtual-piano</h3>
+              <p>Piano simulator. Task for RSS2021Q1</p>
+              <p>Javascript, CSS, HTML</p>
+            </figcaption>
+          </figure>
+          <figure class="portfolio_item">
+            <a href="http://rolling-scopes-school.github.io/alenavp-JSFE2021Q1/wildlife/" target="_blank"
+              title="the first project">
+              <img src="./assets/img/wildlife.png" alt="wildlife" class="portfolio_img"></a>
+            <figcaption>
+              <h3>Wildlife</h3>
+              <p>Landing page. The first task for RSS2021Q1</p>
+              <p>HTML, CSS</p>
+            </figcaption>
+          </figure>
         </section>
         <section id="education">
           <h2>education</h2>
           <h3>additional education</h3>
           <p>2023<br>
             RS School<br>
-            JavaScript/Front-end (HTML, CSS, JavaScript, Git, Visual Studio Code, Sass)</p>
+            JavaScript/Front-end (HTML, CSS, JavaScript, Git, Visual Studio Code, Sass (Scss), Figma, Webpack,
+            TypeScript)</p>
           <p>2021<br>
             ServiceNow<br>
             ServiceNow Administration and Development</p>
@@ -141,9 +183,15 @@
 
   <footer>
     <div class="wrapper footer-wrapper">
-      <div class="rss"></div>
-      <div class="year"></div>
-      <div class="github"></div>
+      <div class="rss">
+        <a href="https://rs.school/js/" class="footer-link rsschool-logo" aria-label="rss"></a>
+      </div>
+      <div class="year">
+        <time datetime="2023-07-09 00:00">2023</time>
+      </div>
+      <div class="github">
+        <a href="https://github.com/AlenaVP" class="footer-link github-logo" aria-label="github"></a>
+      </div>
     </div>
   </footer>
 
