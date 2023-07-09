@@ -106,6 +106,26 @@ a {
   box-shadow: 17px 17px 17px 8px rgb(142 72 74 / 35%);
 }
 
+/* meter */
+meter {
+  height: 1.7em;
+  width: 8em;
+}
+
+meter::-webkit-meter-bar {
+  background: none;
+  box-shadow: 0 5px 5px -5px rgba(3, 3, 3, 0.5) inset;
+  border-radius: 5px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: linear-gradient(to bottom, #f99, #d66 45%, #d66 55%, #f99);
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: linear-gradient(to bottom, #8e5c4a, #e3b3aa 35%, #e3b3aa 55%, #8e5c4a);
+}
+
 /* main-content */
 .main-content {
   padding: 0px 10px;
