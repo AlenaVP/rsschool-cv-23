@@ -63,8 +63,33 @@ a {
 
 .list-link {
   display: block;
-  margin: 5px;
-  padding: 15px 5px;
+  margin: 5px 10px;
+  padding: 15px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8e5c4a;
+  transition: all 0.35s;
+}
+
+.list-link::after {
+  z-index: -1;
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  content: "";
+  background-color: #8e5c4a;
+  transition: all 0.35s;
+}
+
+.list-link:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.list-link:hover {
+  transform: scale(1.1);
 }
 
 /* main */
