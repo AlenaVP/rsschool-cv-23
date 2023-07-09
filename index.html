@@ -14,14 +14,14 @@
     <div class="wrapper header-wrapper">
       <nav>
         <ul class="nav-list">
-          <li class="list-item"></li>
-          <li class="list-item"></li>
-          <li class="list-item"></li>
-          <li class="list-item"></li>
-          <li class="list-item"></li>
-          <li class="list-item"></li>
-          <li class="list-item"></li>
-          <li class="list-item"></li>
+          <li class="list-item hidden"><a href="#contacts" class="list-link">contacts</a></li>
+          <li class="list-item"><a href="#skills" class="list-link">skills</a></li>
+          <li class="list-item hidden"><a href="#about" class="list-link">about me</a></li>
+          <li class="list-item hidden"><a href="#work" class="list-link">work experience</a></li>
+          <li class="list-item"><a href="#code" class="list-link">code examples</a></li>
+          <li class="list-item"><a href="#portfolio" class="list-link">projects</a></li>
+          <li class="list-item"><a href="#education" class="list-link">education</a></li>
+          <li class="list-item"><a href="#languages" class="list-link">languages</a></li>
         </ul>
       </nav>
     </div>
@@ -31,16 +31,109 @@
     <div class="wrapper main-wrapper">
       <div class="sidebar">
         <figure class="ava"></figure>
-        <section id="contacts"></section>
-        <section id="skills"></section>
+        <section id="contacts">
+          <h2 class="hidden">contacts</h2>
+          <ul class="contact-list">
+            <li class="list-item"><span>discord:</span> AlenaVP</li>
+            <li class="list-item"><span>e-mail:</span> papruha.pl@gmail.com</li>
+            <li class="list-item"><span>skype:</span> Alena Papruha</li>
+          </ul>
+        </section>
+        <section id="skills">
+          <h2>key skills</h2>
+          <ul class="skill-list">
+            <li class="list-item">
+              HTML5<br>
+              <meter value="89" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              CSS3<br>
+              <meter value="62" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              JavaScript<br>
+              <meter value="53" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Figma<br>
+              <meter value="26" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Sass<br>
+              <meter value="17" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Visual Studio Code<br>
+              <meter value="35" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Java<br>
+              <meter value="35" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Spring Framework<br>
+              <meter value="26" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Hibernate ORM<br>
+              <meter value="17" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              PostgreSQL<br>
+              <meter value="35" max="100" low="50"></meter>
+            </li>
+            <li class="list-item">
+              Git<br>
+              <meter value="60" max="100" low="50"></meter>
+            </li>
+          </ul>
+        </section>
       </div>
       <div class="main-content">
-        <section id="about"></section>
-        <section id="work"></section>
-        <section id="code"></section>
-        <section id="portfolio"></section>
-        <section id="education"></section>
-        <section id="languages"></section>
+        <section id="about">
+          <h1>Alena Papruha</h1>
+          <h3>Full Stack Developer</h3>
+          <ul>
+            <li class="list-item">Driven and self-motivated, and therefore effective at completing tasks with minimal
+              supervision. I able to work independently as well as functioning as an excellent team player</li>
+            <li class="list-item">Ability to work with a variety of tools and desire for learning of the new tools and
+              technologies</li>
+            <li class="list-item">Aspiration towards self-development and growth</li>
+          </ul>
+        </section>
+        <section id="work" class="hidden">
+          <h2>work experience</h2>
+        </section>
+        <section id="code">
+          <h2>code example</h2>
+          <pre><code>
+    function positiveSum(arr) {
+      return arr.reduce((a, b) =&gt; (b &gt; 0 ? a + b : a), 0);
+    }
+          </code></pre>
+        </section>
+        <section id="portfolio" class="hidden">
+          <h2>projects</h2>
+        </section>
+        <section id="education">
+          <h2>education</h2>
+          <h3>additional education</h3>
+          <p>2023<br>
+            RS School<br>
+            JavaScript/Front-end (HTML, CSS, JavaScript, Git, Visual Studio Code, Sass)</p>
+          <p>2021<br>
+            ServiceNow<br>
+            ServiceNow Administration and Development</p>
+          <h3>high education</h3>
+          <p>
+            1996<br>
+            Belarusian State University, Minsk:<br>
+            Physics, Atomic physics and semiconductors</p>
+        </section>
+        <section id="languages">
+          <h2>languages</h2>
+          <p>English — B1 — Intermediate</p>
+        </section>
       </div>
     </div>
   </main>
